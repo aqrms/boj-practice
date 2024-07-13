@@ -46,6 +46,7 @@ public class BOJ1260 {
                 dfs(i);
             }
         }
+
     }
 
     private static void bfs() {

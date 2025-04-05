@@ -45,7 +45,7 @@ public class BOJ2630 {
         int newSize = size / 2;
 
         partition(row, col, newSize);
-        partition(row, col + newSize, newSize);011
+        partition(row, col + newSize, newSize);
         partition(row + newSize, col, newSize);
         partition(row + newSize, col + newSize, newSize);
     }
